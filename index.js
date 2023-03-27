@@ -7,10 +7,6 @@ app.get('/', (req, res)=>{
     res.render('index')
 })
 
-app.post('/', (req, res)=>{
-    console.log(req.body)
-})
-
 
 
 
